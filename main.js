@@ -31,3 +31,21 @@ ctx.fillRect(150, 100, 150, 550);
 ctx.fillRect(170, 40, 110, 60);
 // Small Top
 ctx.fillRect(190, 20, 70, 20);
+
+// Windows
+ctx.fillStyle = "white";
+// Top Left Building
+for (let y = 200; y < 340; y+= 24) {
+    for (let x = 35; x < 130; x += 24) {
+        ctx.fillRect(x, y, 12, 12);
+    }
+}
+
+// Bottom Left Building
+for (let y = 380; y < 600; y += 40) {
+    ctx.fillRect(20, y, 110, 20);
+}
+
+for (let x = 164; x <= 272; x += 27) {
+    ctx.fillRect(x, 130, 15, 470);
+}
